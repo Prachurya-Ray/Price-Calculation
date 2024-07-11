@@ -11,6 +11,8 @@ const Body = () => {
     const [discount, setDiscount] = useState(0);
     const [amount, setAmount] = useState(0);
 
+    console.log(useState())
+
     function getAmount(quantity, price, discount, gstValue) {
         let amt = 0;
         let qty = parseInt(quantity);

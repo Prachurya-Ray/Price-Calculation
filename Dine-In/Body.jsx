@@ -1,7 +1,5 @@
 import Card from "./Card"
 import { CardData } from './Config';
-import { Link } from "react-router-dom";
-import Modal from "./Modal";
 
 const Body = ()=>{
     
@@ -26,7 +24,7 @@ const Body = ()=>{
 
 
                 </div>
-            </div>
+        </div>
     )
 }
 

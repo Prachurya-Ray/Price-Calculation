@@ -1,7 +1,7 @@
 import React from 'react';
 // import './Modal.css'; // Ensure this CSS file is correctly imported
 
-const Modal = ({ isOpen, closeModal, size }) => {
+const Modal = ({ isOpen, closeModal, name, size }) => {
     // console.log('Modal isOpen:', isOpen); // Log isOpen state
 
     if (!isOpen) return null;

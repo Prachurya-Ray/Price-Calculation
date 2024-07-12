@@ -7,6 +7,8 @@ import { faKitchenSet } from '@fortawesome/free-solid-svg-icons';
 import CartItem from './CartItem';
 const Cart = ()=>{
     return(
+
+        
         
         <div className="dineIn-main_container_cart"  style={{width:'40vw'}}>
 
